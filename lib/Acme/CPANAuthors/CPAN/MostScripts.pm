@@ -22,9 +22,9 @@ use Acme::CPANAuthors::Register (
 
    my $number   = $authors->count;
    my @ids      = $authors->id;
-   my @distros  = $authors->distributions('RJBS');
-   my $url      = $authors->avatar_url('RJBS');
-   my $kwalitee = $authors->kwalitee('RJBS');
+   my @distros  = $authors->distributions('PERLANCAR');
+   my $url      = $authors->avatar_url('PERLANCAR');
+   my $kwalitee = $authors->kwalitee('PERLANCAR');
 
 
 =head1 DESCRIPTION
